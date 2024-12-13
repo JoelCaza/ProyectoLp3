@@ -1,0 +1,530 @@
+﻿@{
+    Layout = null;
+   
+}
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+@model IEnumerable<ProyectoFinal.Models.Lugar>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Baños</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/index.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- barratop comienzo -->
+    <div class="container-fluid bg-light pt-3 d-none d-lg-block">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 text-center text-lg-left mb-2 mb-lg-0">
+                    <div class="d-inline-flex align-items-center">
+                        <p><i class="fa fa-envelope mr-2"></i>Baños@Baños.itq.edu.ec</p>
+                        <p class="text-body px-3">|</p>
+                        <p><i class="fa fa-phone-alt mr-2"></i>+012 345 6789</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-center text-lg-right">
+                    <div class="d-inline-flex align-items-center">
+                        <a class="text-primary px-3" href="https://www.facebook.com/BaniosTurismo">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a class="text-primary px-3" href="https://www.instagram.com/banos_de_agua_santa/?hl=es">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- barratop fin -->
+    
+        <div class="container text-center mt-5">
+
+            <div class="row mt-4">
+                
+                <div class="col-12 col-md-4 mb-3">
+                    <a href="/User/RegisterUser" class="btn btn-success btn-lg w-100">Registrar Usuario</a>
+
+                </div>
+                <div class="col-12 col-md-4 mb-3">
+                    <a href="/Lugares/Create" class="btn btn-info btn-lg w-100">Registrar Lugar Turístico</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bootstrap JS para responsive -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+   
+    <!-- barra de navegacion comienzo -->
+    <div class="container-fluid position-relative nav-bar p-0">
+        <div class="container-lg position-relative p-0 px-lg-3" style="z-index: 9;">
+            <nav class="navbar navbar-expand-lg bg-light navbar-light shadow-lg py-3 py-lg-0 pl-3 pl-lg-5">
+                <a href="" class="navbar-brand">
+                    <h1 class="m-0 text-primary"><span class="text-dark">BAÑ</span>OS</h1>
+                </a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-between px-3" id="navbarCollapse">
+                    <div class="navbar-nav ml-auto py-0">
+                        <a href="/Home/Index" class="nav-item nav-link active">Home</a>
+                        <a href="service.html" class="nav-item nav-link">Servicios</a>
+                        <a href="contact.html" class="nav-item nav-link">Contactos</a>
+                        <a href="/User/Login" class="nav-item nav-link">Iniciar sesion</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- find e barra de navegacion -->
+    <!-- carrusel comienzo -->
+    <div class="container-fluid p-0">
+        <div id="header-carousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="w-100" src="img/Manos_de_dios.jpg" alt="Image">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3" style="max-width: 900px;">
+                            <h4 class="text-white text-uppercase mb-md-3">Baños de Agua santa</h4>
+                            <h1 class="display-3 text-white mb-md-4">Ven y Disfruta</h1>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="w-100" src="img/baños.jpg" alt="Image">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3" style="max-width: 900px;">
+                            <h4 class="text-white text-uppercase mb-md-3">Baños de Agua santa</h4>
+                            <h1 class="display-3 text-white mb-md-4">Con los mejores Lugares turisticos</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#header-carousel" data-slide="prev">
+                <div class="btn btn-dark" style="width: 45px; height: 45px;">
+                    <span class="carousel-control-prev-icon mb-n2"></span>
+                </div>
+            </a>
+            <a class="carousel-control-next" href="#header-carousel" data-slide="next">
+                <div class="btn btn-dark" style="width: 45px; height: 45px;">
+                    <span class="carousel-control-next-icon mb-n2"></span>
+                </div>
+            </a>
+        </div>
+    </div>
+    <!-- fin de carrusel -->
+    <!-- Informacion comienzo -->
+    <div class="container-fluid py-5">
+        <div class="container pt-5">
+            <div class="row">
+                <div class="col-lg-6" style="min-height: 500px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute w-100 h-100" src="img/bañossss.jpg" style="object-fit: cover;">
+                    </div>
+                </div>
+                <div class="col-lg-6 pt-5 pb-lg-5">
+                    <div class="about-text bg-white p-4 p-lg-5 my-lg-5">
+                        <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">Informacion</h6>
+                        <h1 class="mb-3">Baños (Ecuador)</h1>
+                        <p>
+                            Baños, también conocida como Baños de Agua Santa, es una
+                            ciudad ecuatoriana; cabecera cantonal del Cantón Baños,
+                            así como la segunda urbe más grande y poblada de la Provincia
+                            de Tungurahua. Se localiza al centro de la Región interandina
+                            del Ecuador, muy próxima al centro geométrico del territorio
+                            ecuatoriano; en los flancos externos de la cordillera
+                            oriental de los Andes, entre el río Pastaza, el río Bascún
+                            y las faldas del volcán Tungurahua, a una altitud de
+                            1820 msnm y con un clima lluvioso tropical de 19 °C
+                            en promedio.
+                        </p>
+                        <div class="row mb-4">
+                            <div class="col-6">
+                                <img class="img-fluid" src="img/mirador.jpg" alt="">
+                            </div>
+                            <div class="col-6">
+                                <img class="img-fluid" src="img/sendero.jpg" alt="">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- fin de informacion -->
+    <!-- comienso de lugares -->
+
+    <div class="container-fluid py-5">
+        <div class="container pt-5 pb-3">
+            <div class="text-center mb-3 pb-3">
+                <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">Destinos</h6>
+                <h1>Top de Lugares Turísticos</h1>
+            </div>
+
+            <div class="row">
+                @foreach (var lugar in Model)
+                {
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="destination-item position-relative overflow-hidden mb-2">
+                            <!-- Mostrar la imagen si existe -->
+                            @if (lugar.ImagenData != null)
+                            {
+                                <img class="img-fluid" src="@Url.Action("MostrarImagen", "Lugares", new { id = lugar.Id })" alt="Imagen de @lugar.Nombre">
+                            }
+                            else
+                            {
+                                <!-- Mostrar una imagen predeterminada si no existe imagen -->
+                                <img class="img-fluid" src="ruta/a/imagen/predeterminada.jpg" alt="Imagen de @lugar.Nombre">
+                            }
+
+                            <!-- Overlay de información del destino -->
+                            <a class="destination-overlay text-white text-decoration-none d-flex align-items-center justify-content-center">
+                                <div class="text-center">
+                                    <h5 class="text-white">@lugar.Nombre</h5>
+                                    <span>@lugar.CantidadSitios Sitios</span>
+                                </div>
+                            </a>
+                        </div>
+
+                        <!-- Botón de Reservar -->
+                        <div class="text-center mt-3">
+                            <a href="@Url.Action("Reservar", "Reservas", new { lugarId = lugar.Id })" class="btn btn-primary">Reservar</a>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+
+
+    <!-- find e lugares -->
+    <!-- comienzo de destinos -->
+    <div class="container-fluid py-5">
+        <div class="container pt-5 pb-3">
+            <div class="text-center mb-3 pb-3">
+                <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">Destinos</h6>
+                <h1>Top de Lugares Turisticos</h1>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="destination-item position-relative overflow-hidden mb-2">
+                        <img class="img-fluid" src="/img/noticia_24_big.jpg" alt="">
+                        <a class="destination-overlay text-white text-decoration-none">
+                            <h5 class="text-white">Tarabitas</h5>
+                            <span>20 sitios</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="destination-item position-relative overflow-hidden mb-2">
+                        <img class="img-fluid" src="img/aldea.jpg" alt="">
+                        <a class="destination-overlay text-white text-decoration-none">
+                            <h5 class="text-white">La Aldea Mágica</h5>
+                            <span>1 Sitio</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="destination-item position-relative overflow-hidden mb-2">
+                        <img class="img-fluid" src="img/alquiler-chivas2.jpg" alt="">
+                        <a class="destination-overlay text-white text-decoration-none">
+                            <h5 class="text-white">Chivas Locas</h5>
+                            <span>20 Sitios</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="destination-item position-relative overflow-hidden mb-2">
+                        <img class="img-fluid" src="img/ruta-de-las-cascadas-banos.jpg" alt="">
+                        <a class="destination-overlay text-white text-decoration-none">
+                            <h5 class="text-white">Pailon del Diablo </h5>
+                            <span>1 Sitio</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="destination-item position-relative overflow-hidden mb-2">
+                        <img class="img-fluid" src="img/iglesia.jpg" alt="">
+                        <a class="destination-overlay text-white text-decoration-none">
+                            <h5 class="text-white">Santuario nuestra señora del Rosario de Agua Santa</h5>
+                            <span>1 Sitio</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="destination-item position-relative overflow-hidden mb-2">
+                        <img class="img-fluid" src="img/mano.jpg" alt="">
+                        <a class="destination-overlay text-white text-decoration-none">
+                            <h5 class="text-white">Mano de Dios</h5>
+                            <span>1 sitio</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- fin de destinos -->
+    <!-- comienso de paquetes -->
+    <div class="container-fluid py-5">
+        <div class="container pt-5 pb-3">
+            <div class="text-center mb-3 pb-3">
+                <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">Packages</h6>
+                <h1>Pefect Tour Packages</h1>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="package-item bg-white mb-2">
+                        <img class="img-fluid" src="img/package-1.jpg" alt="">
+                        <div class="p-4">
+                            <div class="d-flex justify-content-between mb-3">
+                                <small class="m-0"><i class="fa fa-map-marker-alt text-primary mr-2"></i>Thailand</small>
+                                <small class="m-0"><i class="fa fa-calendar-alt text-primary mr-2"></i>3 days</small>
+                                <small class="m-0"><i class="fa fa-user text-primary mr-2"></i>2 Person</small>
+                            </div>
+                            <a class="h5 text-decoration-none" href="">Discover amazing places of the world with us</a>
+                            <div class="border-top mt-4 pt-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>4.5 <small>(250)</small></h6>
+                                    <h5 class="m-0">$350</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="package-item bg-white mb-2">
+                        <img class="img-fluid" src="img/package-2.jpg" alt="">
+                        <div class="p-4">
+                            <div class="d-flex justify-content-between mb-3">
+                                <small class="m-0"><i class="fa fa-map-marker-alt text-primary mr-2"></i>Thailand</small>
+                                <small class="m-0"><i class="fa fa-calendar-alt text-primary mr-2"></i>3 days</small>
+                                <small class="m-0"><i class="fa fa-user text-primary mr-2"></i>2 Person</small>
+                            </div>
+                            <a class="h5 text-decoration-none" href="">Discover amazing places of the world with us</a>
+                            <div class="border-top mt-4 pt-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>4.5 <small>(250)</small></h6>
+                                    <h5 class="m-0">$350</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="package-item bg-white mb-2">
+                        <img class="img-fluid" src="img/package-3.jpg" alt="">
+                        <div class="p-4">
+                            <div class="d-flex justify-content-between mb-3">
+                                <small class="m-0"><i class="fa fa-map-marker-alt text-primary mr-2"></i>Thailand</small>
+                                <small class="m-0"><i class="fa fa-calendar-alt text-primary mr-2"></i>3 days</small>
+                                <small class="m-0"><i class="fa fa-user text-primary mr-2"></i>2 Person</small>
+                            </div>
+                            <a class="h5 text-decoration-none" href="">Discover amazing places of the world with us</a>
+                            <div class="border-top mt-4 pt-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>4.5 <small>(250)</small></h6>
+                                    <h5 class="m-0">$350</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="package-item bg-white mb-2">
+                        <img class="img-fluid" src="img/package-4.jpg" alt="">
+                        <div class="p-4">
+                            <div class="d-flex justify-content-between mb-3">
+                                <small class="m-0"><i class="fa fa-map-marker-alt text-primary mr-2"></i>Thailand</small>
+                                <small class="m-0"><i class="fa fa-calendar-alt text-primary mr-2"></i>3 days</small>
+                                <small class="m-0"><i class="fa fa-user text-primary mr-2"></i>2 Person</small>
+                            </div>
+                            <a class="h5 text-decoration-none" href="">Discover amazing places of the world with us</a>
+                            <div class="border-top mt-4 pt-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>4.5 <small>(250)</small></h6>
+                                    <h5 class="m-0">$350</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="package-item bg-white mb-2">
+                        <img class="img-fluid" src="img/package-5.jpg" alt="">
+                        <div class="p-4">
+                            <div class="d-flex justify-content-between mb-3">
+                                <small class="m-0"><i class="fa fa-map-marker-alt text-primary mr-2"></i>Thailand</small>
+                                <small class="m-0"><i class="fa fa-calendar-alt text-primary mr-2"></i>3 days</small>
+                                <small class="m-0"><i class="fa fa-user text-primary mr-2"></i>2 Person</small>
+                            </div>
+                            <a class="h5 text-decoration-none" href="">Discover amazing places of the world with us</a>
+                            <div class="border-top mt-4 pt-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>4.5 <small>(250)</small></h6>
+                                    <h5 class="m-0">$350</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="package-item bg-white mb-2">
+                        <img class="img-fluid" src="img/package-6.jpg" alt="">
+                        <div class="p-4">
+                            <div class="d-flex justify-content-between mb-3">
+                                <small class="m-0"><i class="fa fa-map-marker-alt text-primary mr-2"></i>Thailand</small>
+                                <small class="m-0"><i class="fa fa-calendar-alt text-primary mr-2"></i>3 days</small>
+                                <small class="m-0"><i class="fa fa-user text-primary mr-2"></i>2 Person</small>
+                            </div>
+                            <a class="h5 text-decoration-none" href="">Discover amazing places of the world with us</a>
+                            <div class="border-top mt-4 pt-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>4.5 <small>(250)</small></h6>
+                                    <h5 class="m-0">$350</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- find e paquetes -->
+    <!-- comienzo de tetimonios -->
+    <div class="container-fluid py-5">
+        <div class="container py-5">
+            <div class="text-center mb-3 pb-3">
+                <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">Testimonios</h6>
+                <h1>Clientes Satisfechos</h1>
+            </div>
+            <div class="owl-carousel testimonial-carousel">
+                <div class="text-center pb-4">
+                    <img class="img-fluid mx-auto" src="img/MAICOL.png" style="width: 100px; height: 100px;">
+                    <div class="testimonial-text bg-white p-4 mt-n5">
+                        <p class="mt-5">
+                            Muy buen Servicio
+                        </p>
+                        <h5 class="text-truncate">Maicol Guaman </h5>
+                        <span>Chulo 122</span>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <img class="img-fluid mx-auto" src="img/kevin.png" style="width: 100px; height: 100px;">
+                    <div class="testimonial-text bg-white p-4 mt-n5">
+                        <p class="mt-5">Escelente servicio Muy buena Atencion </p>
+                        <h5 class="text-truncate">Kevin Chiguano</h5>
+                        <span>Chulo CocoBoricua</span>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <img class="img-fluid mx-auto" src="img/JOEL.png" style="width: 100px; height: 100px;">
+                    <div class="testimonial-text bg-white p-4 mt-n5">
+                        <p class="mt-5">Escelentneisisismo Todo </p>
+                        <h5 class="text-truncate">Joel Caiza</h5>
+                        <span>Chulo 0Kilometros </span>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <img class="img-fluid mx-auto" src="img/CRISTIAN.jpg" style="width: 100px; height: 100px;">
+                    <div class="testimonial-text bg-white p-4 mt-n5">
+                        <p class="mt-5">Na mas Falto Trago y ya </p>
+                        <h5 class="text-truncate">Cristian Sandoval</h5>
+                        <span>Chulo GenteBonita</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- fin de testimonios -->
+    <!-- comienzo de footer -->
+    <div class="container-fluid bg-dark text-white-50 py-5 px-sm-3 px-lg-5" style="margin-top: 90px;">
+        <div class="row pt-5">
+            <div class="col-lg-3 col-md-6 mb-5">
+                <a href="" class="navbar-brand">
+                    <h1 class="text-primary"><span class="text-white">BAÑ</span>OS</h1>
+                </a>
+                <p>Baños un lugar de paz y tranquilidad para pasarla supe bien </p>
+                <h6 class="text-white text-uppercase mt-4 mb-3" style="letter-spacing: 5px;">Follow Us</h6>
+                <div class="d-flex justify-content-start">
+                    <a class="btn btn-outline-primary btn-square mr-2" href="https://www.facebook.com/BaniosTurismo"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-primary btn-square" href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h5 class="text-white text-uppercase mb-4" style="letter-spacing: 5px;">Contact Us</h5>
+                <p><i class="fa fa-map-marker-alt mr-2"></i>123 Street, New York, USA</p>
+                <p><i class="fa fa-phone-alt mr-2"></i>+012 345 67890</p>
+                <p><i class="fa fa-envelope mr-2"></i>info@example.com</p>
+                <h6 class="text-white text-uppercase mt-4 mb-3" style="letter-spacing: 5px;">Newsletter</h6>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- find edel footer -->
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+
+    <!-- javascripts -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

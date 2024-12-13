@@ -1,0 +1,72 @@
+﻿@model ProyectoFinal.Models.Lugar
+
+<h2>Crear Lugar</h2>
+
+<form asp-action="Create" method="post" enctype="multipart/form-data">
+    <div class="form-group">
+        <label asp-for="Nombre">Nombre</label>
+        <input asp-for="Nombre" class="form-control" required />
+        <span asp-validation-for="Nombre" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="CantidadSitios">Cantidad de Sitios</label>
+        <input asp-for="CantidadSitios" class="form-control" required />
+        <span asp-validation-for="CantidadSitios" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label for="Imagen">Imagen</label>
+        <input type="file" name="Imagen" id="Imagen" class="form-control-file" accept="image/*" />
+    </div>
+
+    <!-- Mapa interactivo -->
+    <div class="form-group">
+        <label for="map">Selecciona la ubicación</label>
+        <div id="map" style="height: 400px;"></div>
+        <input type="hidden" id="Latitud" name="Latitud" />
+        <input type="hidden" id="Longitud" name="Longitud" />
+        <span id="coords"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Guardar</button>
+</form>
+
+@section Scripts {
+    <!-- Incluir Leaflet.js -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+
+    <script>
+        // Crear el mapa, centrado en Baños de Agua Santa, Ecuador
+        var map = L.map('map').setView([-1.3986, -78.4200], 13); // Coordenadas de Baños de Agua Santa con zoom 13
+
+        // Cargar OpenStreetMap
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+
+        // Variable para almacenar el marcador
+        var marker;
+
+        // Función para actualizar el campo Latitud y Longitud al hacer clic en el mapa
+        map.on('click', function (e) {
+            var lat = e.latlng.lat;
+            var lng = e.latlng.lng;
+
+            // Actualizar el marcador
+            if (marker) {
+                marker.setLatLng([lat, lng]);
+            } else {
+                marker = L.marker([lat, lng]).addTo(map);
+            }
+
+            // Actualizar los campos ocultos con las coordenadas
+            document.getElementById('Latitud').value = lat;
+            document.getElementById('Longitud').value = lng;
+
+            // Mostrar las coordenadas
+            document.getElementById('coords').textContent = 'Latitud: ' + lat + ', Longitud: ' + lng;
+        });
+    </script>
+}

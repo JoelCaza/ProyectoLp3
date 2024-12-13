@@ -1,0 +1,12 @@
+﻿@model ProyectoFinal.Models.Reservacion
+
+<h2>Reservar para el lugar: @ViewBag.Lugar.Nombre</h2>
+
+<form method="post">
+    <div class="form-group">
+        <label for="horaItinerario">Selecciona la fecha y hora de la reserva</label>
+        <input type="datetime-local" id="horaItinerario" name="horaItinerario" class="form-control" required />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Reservar</button>
+</form>

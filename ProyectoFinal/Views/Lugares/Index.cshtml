@@ -1,0 +1,56 @@
+﻿@model List<ProyectoFinal.Models.Lugar>
+
+<h2>Lugares Guardados</h2>
+
+@if (Model == null || !Model.Any())
+{
+    <p>No hay lugares guardados.</p>
+}
+else
+{
+    <div class="row">
+        @foreach (var lugar in Model)
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <!-- Mostrar imagen si la hay -->
+                    @if (lugar.ImagenData != null)
+                    {
+                        <img src="@Url.Action("MostrarImagen", new { id = lugar.Id })"
+                             class="card-img-top"
+                             alt="@lugar.Nombre"
+                             style="max-height: 200px; object-fit: cover;" />
+                    }
+                    <div class="card-body">
+                        <!-- Nombre del lugar -->
+                        <h5 class="card-title">@lugar.Nombre</h5>
+
+                        <!-- Información adicional -->
+                        <p class="card-text">
+                            <strong>Cantidad de Sitios:</strong> @lugar.CantidadSitios
+                        </p>
+
+                        <!-- Mostrar imagen si el nombre de la imagen no es nulo -->
+                        @if (lugar.ImagenNombre != null)
+                        {
+                            <p class="card-text">
+                                <small class="text-muted">Imagen: @lugar.ImagenNombre</small>
+                            </p>
+                        }
+
+                        <!-- Mostrar la ubicación (Latitud, Longitud) si está disponible -->
+                        @if (lugar.Latitud.HasValue && lugar.Longitud.HasValue)
+                        {
+                            <p class="card-text">
+                                <small class="text-muted">Ubicación: @lugar.Latitud, @lugar.Longitud</small>
+                            </p>
+                        }
+
+                        <!-- Botón para ver más detalles, si es necesario -->
+                        <a href="@Url.Action("Details", "Lugares", new { id = lugar.Id })" class="btn btn-primary">Ver detalles</a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+}

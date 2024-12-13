@@ -1,0 +1,158 @@
+﻿@{
+    Layout = null;
+}
+@model ProyectoFinal.Models.Usuario
+
+@{
+    ViewData["Title"] = "Registrar Usuario";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Baños</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="~/css/index.css" rel="stylesheet">
+</head>
+<body>
+    <!-- comienzo de barra top-->
+    <div class="container-fluid bg-light pt-3 d-none d-lg-block">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 text-center text-lg-left mb-2 mb-lg-0">
+                    <div class="d-inline-flex align-items-center">
+                        <p><i class="fa fa-envelope mr-2"></i>Baños@Baños.itq.edu.ec</p>
+                        <p class="text-body px-3">|</p>
+                        <p><i class="fa fa-phone-alt mr-2"></i>+012 345 6789</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-center text-lg-right">
+                    <div class="d-inline-flex align-items-center">
+                        <a class="text-primary px-3" href="https://www.facebook.com/BaniosTurismo">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a class="text-primary px-3" href="https://www.instagram.com/banos_de_agua_santa/?hl=es">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- find e barratop -->
+    <!-- comienzo de navbar -->
+    <div class="container-fluid position-relative nav-bar p-0">
+        <div class="container-lg position-relative p-0 px-lg-3" style="z-index: 9;">
+            <nav class="navbar navbar-expand-lg bg-light navbar-light shadow-lg py-3 py-lg-0 pl-3 pl-lg-5">
+                <a href="" class="navbar-brand">
+                    <h1 class="m-0 text-primary"><span class="text-dark">BAÑ</span>OS</h1>
+                </a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-between px-3" id="navbarCollapse">
+                    <div class="navbar-nav ml-auto py-0">
+                        <a href="index.html" class="nav-item nav-link active">Home</a>
+                        <a href="service.html" class="nav-item nav-link">Servicios</a>
+                        <a href="contact.html" class="nav-item nav-link">Contactos</a>
+
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- find el navbar -->
+    <!--comienzo de registro -->
+    <div class="container-fluid bg-registration py-5" style="margin: 90px 0;">
+        <div class="container py-5">
+            <div class="row align-items-center">
+                <div class="col-lg-7 mb-5 mb-lg-0">
+                    <div class="mb-4">
+                        <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">Mega Offer</h6>
+                        <h1 class="text-white"><span class="text-primary">30% OFF</span>Descuento</h1>
+                    </div>
+                    <p class="text-white">
+                        Baños con grandes descuentos y mejores lugares turisticos
+                    </p>
+                    <ul class="list-inline text-white m-0">
+                        <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Excelente ambiente</li>
+                        <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Hermosos Lugares</li>
+                        <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Super Economico</li>
+                    </ul>
+                </div>
+                <div class="col-lg-5">
+                    <div class="card border-0">
+                        <div class="card-header bg-primary text-center p-4">
+                            <h1 class="text-white m-0">Iniciar Sesion</h1>
+                        </div>
+                        <div class="card-body rounded-bottom bg-white p-5">
+                            <form asp-action="RegisterUser" method="post">
+                                
+                                <div class="form-group">
+                                    <label>Nombre:</label>
+                                    <input type="text" asp-for="Nombre" class="form-control p-4" placeholder="Nombre" />
+                                </div>
+                                <div class="form-group">
+                                    <label>Apellido:</label>
+                                    <input type="text" asp-for="Apellido" class="form-control p-4" placeholder="Apellido" />
+                                </div>
+                                <div class="form-group">
+                                    <label>Teléfono:</label>
+                                    <input type="text" asp-for="Telefono" class="form-control p-4" placeholder="Telefono" />
+                                </div>
+                                <div class="form-group">
+                                    <label>Cédula:</label>
+                                    <input type="text" asp-for="Cedula" class="form-control p-4 " placeholder="Cedula" />
+                                </div>
+                                <div class="form-group">
+                                    <label>Ciudad:</label>
+                                    <input type="text" asp-for="Ciudad" class="form-control p-4 " placeholder="Ciudad" />
+                                </div>
+
+                                <div class="form-group">
+                                    <label>Contraseña:</label>
+                                    <input type="password" asp-for="Contrasena" class="form-control p-4 " placeholder="Contraseña" />
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" name="Contrasena" class="form-control p-4" placeholder="Contraseña" required="required" />
+                                </div>
+
+                                <div>
+                                    <button class="btn btn-primary btn-block py-3" type="submit">Registrar usuario</button>
+                                </div>
+                            </form>
+                            <a href="/User/Login" class="btn btn-success btn-lg w-100">Iniciar Session</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- find e registro -->
+
+</body>
+
+
+</html>
+
+
