@@ -1,6 +1,7 @@
 ﻿using ProyectoFinal.Models;
 using Microsoft.AspNetCore.Mvc;
 using ProyectoFinal.Data;
+using Microsoft.AspNetCore.Identity;
 
 
 namespace ProyectoFinal.Controllers
@@ -29,6 +30,9 @@ namespace ProyectoFinal.Controllers
         {
             if (ModelState.IsValid)
             {
+                var passwordHasher = new PasswordHasher<Usuario>();
+                usuario.Contrasena = passwordHasher.HashPassword(usuario, usuario.Contrasena);
+
                 _context.Usuarios.Add(usuario);
                 _context.SaveChanges();
 

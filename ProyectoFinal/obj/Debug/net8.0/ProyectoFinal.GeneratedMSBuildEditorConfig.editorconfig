@@ -17,63 +17,63 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ProyectoFinal
 build_property.RootNamespace = ProyectoFinal
-build_property.ProjectDir = C:\Users\Joel\Desktop\ProyectoFinalC#\ProyectoFinalBa-os\ProyectoFinal\
+build_property.ProjectDir = C:\Users\hp\Source\Repos\JoelCaza\ProyectoLp3\ProyectoFinal\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Joel\Desktop\ProyectoFinalC#\ProyectoFinalBa-os\ProyectoFinal
+build_property.MSBuildProjectDirectory = C:\Users\hp\Source\Repos\JoelCaza\ProyectoLp3\ProyectoFinal
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Joel/Desktop/ProyectoFinalC\#/ProyectoFinalBa-os/ProyectoFinal/Views/Home/Index.cshtml]
+[C:/Users/hp/Source/Repos/JoelCaza/ProyectoLp3/ProyectoFinal/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Joel/Desktop/ProyectoFinalC\#/ProyectoFinalBa-os/ProyectoFinal/Views/Home/Privacy.cshtml]
+[C:/Users/hp/Source/Repos/JoelCaza/ProyectoLp3/ProyectoFinal/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Joel/Desktop/ProyectoFinalC\#/ProyectoFinalBa-os/ProyectoFinal/Views/Lugares/Create.cshtml]
+[C:/Users/hp/Source/Repos/JoelCaza/ProyectoLp3/ProyectoFinal/Views/Lugares/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTHVnYXJlc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Joel/Desktop/ProyectoFinalC\#/ProyectoFinalBa-os/ProyectoFinal/Views/Lugares/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTHVnYXJlc1xJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Joel/Desktop/ProyectoFinalC\#/ProyectoFinalBa-os/ProyectoFinal/Views/Reservas/Index.cshtml]
+[C:/Users/hp/Source/Repos/JoelCaza/ProyectoLp3/ProyectoFinal/Views/Reservas/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Joel/Desktop/ProyectoFinalC\#/ProyectoFinalBa-os/ProyectoFinal/Views/Reservas/Reservar.cshtml]
+[C:/Users/hp/Source/Repos/JoelCaza/ProyectoLp3/ProyectoFinal/Views/Reservas/Reservar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YXNcUmVzZXJ2YXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Joel/Desktop/ProyectoFinalC\#/ProyectoFinalBa-os/ProyectoFinal/Views/Shared/Error.cshtml]
+[C:/Users/hp/Source/Repos/JoelCaza/ProyectoLp3/ProyectoFinal/Views/Servicios/Servicios.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljaW9zXFNlcnZpY2lvcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Source/Repos/JoelCaza/ProyectoLp3/ProyectoFinal/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Joel/Desktop/ProyectoFinalC\#/ProyectoFinalBa-os/ProyectoFinal/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/hp/Source/Repos/JoelCaza/ProyectoLp3/ProyectoFinal/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Joel/Desktop/ProyectoFinalC\#/ProyectoFinalBa-os/ProyectoFinal/Views/User/Login.cshtml]
+[C:/Users/hp/Source/Repos/JoelCaza/ProyectoLp3/ProyectoFinal/Views/User/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Joel/Desktop/ProyectoFinalC\#/ProyectoFinalBa-os/ProyectoFinal/Views/User/RegisterUser.cshtml]
+[C:/Users/hp/Source/Repos/JoelCaza/ProyectoLp3/ProyectoFinal/Views/User/RegisterUser.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxSZWdpc3RlclVzZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Joel/Desktop/ProyectoFinalC\#/ProyectoFinalBa-os/ProyectoFinal/Views/_ViewImports.cshtml]
+[C:/Users/hp/Source/Repos/JoelCaza/ProyectoLp3/ProyectoFinal/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Joel/Desktop/ProyectoFinalC\#/ProyectoFinalBa-os/ProyectoFinal/Views/_ViewStart.cshtml]
+[C:/Users/hp/Source/Repos/JoelCaza/ProyectoLp3/ProyectoFinal/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Joel/Desktop/ProyectoFinalC\#/ProyectoFinalBa-os/ProyectoFinal/Views/Shared/_Layout.cshtml]
+[C:/Users/hp/Source/Repos/JoelCaza/ProyectoLp3/ProyectoFinal/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-ww5h623m21

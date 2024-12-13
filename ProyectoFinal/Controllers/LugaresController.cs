@@ -60,7 +60,7 @@ namespace ProyectoFinal.Controllers
                 await _context.SaveChangesAsync();
 
                 TempData["Mensaje"] = "Lugar creado exitosamente."; // Mensaje temporal de éxito.
-                return RedirectToAction(nameof(Index)); // Redirige a la lista de lugares.
+                return RedirectToAction("Index", "Home"); // Redirige a la lista de lugares.
             }
 
             return View(lugar); // Si el modelo no es válido, vuelve a la vista de creación con errores.

@@ -1,0 +1,241 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\hp\\source\\repos\\JoelCaza\\ProyectoLp3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C26A74D7-8D2B-4F34-825B-41E1E0938E09}|ProyectoFinal\\ProyectoFinal.csproj|c:\\users\\hp\\source\\repos\\joelcaza\\proyectolp3\\proyectofinal\\views\\servicios\\servicios.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C26A74D7-8D2B-4F34-825B-41E1E0938E09}|ProyectoFinal\\ProyectoFinal.csproj|solutionrelative:proyectofinal\\views\\servicios\\servicios.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C26A74D7-8D2B-4F34-825B-41E1E0938E09}|ProyectoFinal\\ProyectoFinal.csproj|c:\\users\\hp\\source\\repos\\joelcaza\\proyectolp3\\proyectofinal\\controllers\\reservascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C26A74D7-8D2B-4F34-825B-41E1E0938E09}|ProyectoFinal\\ProyectoFinal.csproj|solutionrelative:proyectofinal\\controllers\\reservascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C26A74D7-8D2B-4F34-825B-41E1E0938E09}|ProyectoFinal\\ProyectoFinal.csproj|c:\\users\\hp\\source\\repos\\joelcaza\\proyectolp3\\proyectofinal\\views\\user\\registeruser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C26A74D7-8D2B-4F34-825B-41E1E0938E09}|ProyectoFinal\\ProyectoFinal.csproj|solutionrelative:proyectofinal\\views\\user\\registeruser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C26A74D7-8D2B-4F34-825B-41E1E0938E09}|ProyectoFinal\\ProyectoFinal.csproj|c:\\users\\hp\\source\\repos\\joelcaza\\proyectolp3\\proyectofinal\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C26A74D7-8D2B-4F34-825B-41E1E0938E09}|ProyectoFinal\\ProyectoFinal.csproj|solutionrelative:proyectofinal\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C26A74D7-8D2B-4F34-825B-41E1E0938E09}|ProyectoFinal\\ProyectoFinal.csproj|c:\\users\\hp\\source\\repos\\joelcaza\\proyectolp3\\proyectofinal\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C26A74D7-8D2B-4F34-825B-41E1E0938E09}|ProyectoFinal\\ProyectoFinal.csproj|solutionrelative:proyectofinal\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C26A74D7-8D2B-4F34-825B-41E1E0938E09}|ProyectoFinal\\ProyectoFinal.csproj|c:\\users\\hp\\source\\repos\\joelcaza\\proyectolp3\\proyectofinal\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C26A74D7-8D2B-4F34-825B-41E1E0938E09}|ProyectoFinal\\ProyectoFinal.csproj|solutionrelative:proyectofinal\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C26A74D7-8D2B-4F34-825B-41E1E0938E09}|ProyectoFinal\\ProyectoFinal.csproj|c:\\users\\hp\\source\\repos\\joelcaza\\proyectolp3\\proyectofinal\\views\\reservas\\reservar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C26A74D7-8D2B-4F34-825B-41E1E0938E09}|ProyectoFinal\\ProyectoFinal.csproj|solutionrelative:proyectofinal\\views\\reservas\\reservar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C26A74D7-8D2B-4F34-825B-41E1E0938E09}|ProyectoFinal\\ProyectoFinal.csproj|c:\\users\\hp\\source\\repos\\joelcaza\\proyectolp3\\proyectofinal\\views\\reservas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C26A74D7-8D2B-4F34-825B-41E1E0938E09}|ProyectoFinal\\ProyectoFinal.csproj|solutionrelative:proyectofinal\\views\\reservas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C26A74D7-8D2B-4F34-825B-41E1E0938E09}|ProyectoFinal\\ProyectoFinal.csproj|c:\\users\\hp\\source\\repos\\joelcaza\\proyectolp3\\proyectofinal\\views\\lugares\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C26A74D7-8D2B-4F34-825B-41E1E0938E09}|ProyectoFinal\\ProyectoFinal.csproj|solutionrelative:proyectofinal\\views\\lugares\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C26A74D7-8D2B-4F34-825B-41E1E0938E09}|ProyectoFinal\\ProyectoFinal.csproj|c:\\users\\hp\\source\\repos\\joelcaza\\proyectolp3\\proyectofinal\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C26A74D7-8D2B-4F34-825B-41E1E0938E09}|ProyectoFinal\\ProyectoFinal.csproj|solutionrelative:proyectofinal\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C26A74D7-8D2B-4F34-825B-41E1E0938E09}|ProyectoFinal\\ProyectoFinal.csproj|c:\\users\\hp\\source\\repos\\joelcaza\\proyectolp3\\proyectofinal\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C26A74D7-8D2B-4F34-825B-41E1E0938E09}|ProyectoFinal\\ProyectoFinal.csproj|solutionrelative:proyectofinal\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C26A74D7-8D2B-4F34-825B-41E1E0938E09}|ProyectoFinal\\ProyectoFinal.csproj|c:\\users\\hp\\source\\repos\\joelcaza\\proyectolp3\\proyectofinal\\controllers\\lugarescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C26A74D7-8D2B-4F34-825B-41E1E0938E09}|ProyectoFinal\\ProyectoFinal.csproj|solutionrelative:proyectofinal\\controllers\\lugarescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C26A74D7-8D2B-4F34-825B-41E1E0938E09}|ProyectoFinal\\ProyectoFinal.csproj|c:\\users\\hp\\source\\repos\\joelcaza\\proyectolp3\\proyectofinal\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C26A74D7-8D2B-4F34-825B-41E1E0938E09}|ProyectoFinal\\ProyectoFinal.csproj|solutionrelative:proyectofinal\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\JoelCaza\\ProyectoLp3\\ProyectoFinal\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ProyectoFinal\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\JoelCaza\\ProyectoLp3\\ProyectoFinal\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ProyectoFinal\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-13T13:26:42.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\JoelCaza\\ProyectoLp3\\ProyectoFinal\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "ProyectoFinal\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\JoelCaza\\ProyectoLp3\\ProyectoFinal\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "ProyectoFinal\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-13T13:22:41.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\JoelCaza\\ProyectoLp3\\ProyectoFinal\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "ProyectoFinal\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\JoelCaza\\ProyectoLp3\\ProyectoFinal\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "ProyectoFinal\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-13T13:22:41.238Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\JoelCaza\\ProyectoLp3\\ProyectoFinal\\Views\\User\\Login.cshtml",
+              "RelativeDocumentMoniker": "ProyectoFinal\\Views\\User\\Login.cshtml",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\JoelCaza\\ProyectoLp3\\ProyectoFinal\\Views\\User\\Login.cshtml",
+              "RelativeToolTip": "ProyectoFinal\\Views\\User\\Login.cshtml",
+              "ViewState": "AgIAADkAAAAAAAAAAIBJwEgAAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-13T05:18:39.842Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\JoelCaza\\ProyectoLp3\\ProyectoFinal\\Views\\Lugares\\Create.cshtml",
+              "RelativeDocumentMoniker": "ProyectoFinal\\Views\\Lugares\\Create.cshtml",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\JoelCaza\\ProyectoLp3\\ProyectoFinal\\Views\\Lugares\\Create.cshtml",
+              "RelativeToolTip": "ProyectoFinal\\Views\\Lugares\\Create.cshtml",
+              "ViewState": "AgIAADYAAAAAAAAAAIBJwEQAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-13T05:18:07.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\JoelCaza\\ProyectoLp3\\ProyectoFinal\\Views\\Reservas\\Index.cshtml",
+              "RelativeDocumentMoniker": "ProyectoFinal\\Views\\Reservas\\Index.cshtml",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\JoelCaza\\ProyectoLp3\\ProyectoFinal\\Views\\Reservas\\Index.cshtml",
+              "RelativeToolTip": "ProyectoFinal\\Views\\Reservas\\Index.cshtml",
+              "ViewState": "AgIAADkAAAAAAAAAAIBJwAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-13T05:05:34.063Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Reservar.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\JoelCaza\\ProyectoLp3\\ProyectoFinal\\Views\\Reservas\\Reservar.cshtml",
+              "RelativeDocumentMoniker": "ProyectoFinal\\Views\\Reservas\\Reservar.cshtml",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\JoelCaza\\ProyectoLp3\\ProyectoFinal\\Views\\Reservas\\Reservar.cshtml",
+              "RelativeToolTip": "ProyectoFinal\\Views\\Reservas\\Reservar.cshtml",
+              "ViewState": "AgIAADYAAAAAAAAAAIBJwAkAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-13T04:11:36.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RegisterUser.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\JoelCaza\\ProyectoLp3\\ProyectoFinal\\Views\\User\\RegisterUser.cshtml",
+              "RelativeDocumentMoniker": "ProyectoFinal\\Views\\User\\RegisterUser.cshtml",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\JoelCaza\\ProyectoLp3\\ProyectoFinal\\Views\\User\\RegisterUser.cshtml",
+              "RelativeToolTip": "ProyectoFinal\\Views\\User\\RegisterUser.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFAAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-13T03:52:56.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Servicios.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\JoelCaza\\ProyectoLp3\\ProyectoFinal\\Views\\Servicios\\Servicios.cshtml",
+              "RelativeDocumentMoniker": "ProyectoFinal\\Views\\Servicios\\Servicios.cshtml",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\JoelCaza\\ProyectoLp3\\ProyectoFinal\\Views\\Servicios\\Servicios.cshtml",
+              "RelativeToolTip": "ProyectoFinal\\Views\\Servicios\\Servicios.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACQAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-13T02:25:59.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LugaresController.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\JoelCaza\\ProyectoLp3\\ProyectoFinal\\Controllers\\LugaresController.cs",
+              "RelativeDocumentMoniker": "ProyectoFinal\\Controllers\\LugaresController.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\JoelCaza\\ProyectoLp3\\ProyectoFinal\\Controllers\\LugaresController.cs",
+              "RelativeToolTip": "ProyectoFinal\\Controllers\\LugaresController.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAIwD8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T01:41:18.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ReservasController.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\JoelCaza\\ProyectoLp3\\ProyectoFinal\\Controllers\\ReservasController.cs",
+              "RelativeDocumentMoniker": "ProyectoFinal\\Controllers\\ReservasController.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\JoelCaza\\ProyectoLp3\\ProyectoFinal\\Controllers\\ReservasController.cs",
+              "RelativeToolTip": "ProyectoFinal\\Controllers\\ReservasController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T03:32:20.113Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\JoelCaza\\ProyectoLp3\\ProyectoFinal\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "ProyectoFinal\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\JoelCaza\\ProyectoLp3\\ProyectoFinal\\Controllers\\UserController.cs",
+              "RelativeToolTip": "ProyectoFinal\\Controllers\\UserController.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAcwDsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T03:18:18.308Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\JoelCaza\\ProyectoLp3\\ProyectoFinal\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ProyectoFinal\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\JoelCaza\\ProyectoLp3\\ProyectoFinal\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ProyectoFinal\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAEgAAAAAAAAAAIBJwE8AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-13T02:24:38.196Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

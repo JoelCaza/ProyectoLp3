@@ -40,36 +40,28 @@ namespace ProyectoFinal.Controllers
         {
             if (ModelState.IsValid)
             {
-                // Simula la obtención del ID del usuario (en un escenario real, esto se obtendría del contexto del usuario autenticado).
-                var usuarioId = 1;
+                var usuarioId = 1;  // Aquí simulas el ID del usuario, en un caso real deberías obtenerlo de `User.Identity`.
 
-                // Crea una nueva reserva con los datos proporcionados.
                 var reservacion = new Reservacion
                 {
                     UsuarioId = usuarioId,
                     LugarId = lugarId,
-                    HoraItinerario = horaItinerario // Asigna el tiempo de la reserva.
+                    HoraItinerario = horaItinerario
                 };
-
-                // Agrega la nueva reserva a la base de datos.
+               
                 _context.Reservaciones.Add(reservacion);
-                _context.SaveChanges(); // Guarda los cambios en la base de datos.
+                _context.SaveChanges();
 
-                // Muestra un mensaje temporal de éxito en la interfaz de usuario.
-                TempData["Mensaje"] = "Reservación realizada con éxito.";
-                // Redirige a la página principal (Home).
-                return RedirectToAction("Index", "Home");
+                ViewBag.MensajeExito = "¡Su viaje ha sido reservado correctamente!";
+                return RedirectToAction("Reservar", "Reservas");
             }
-
-            return View(); // Si el modelo no es válido, vuelve a la vista de reserva.
+            return View();
         }
 
         // Acción GET que muestra la lista de todas las reservas.
         public IActionResult Index()
         {
-            // Obtiene todas las reservas de la base de datos e incluye los lugares relacionados.
             var reservas = _context.Reservaciones.Include(r => r.Lugar).ToList();
-            // Devuelve la vista con la lista de reservas.
             return View(reservas);
         }
     }

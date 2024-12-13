@@ -1,39 +1,198 @@
 ﻿@model ProyectoFinal.Models.Lugar
 
-<h2>Crear Lugar</h2>
 
-<form asp-action="Create" method="post" enctype="multipart/form-data">
-    <div class="form-group">
-        <label asp-for="Nombre">Nombre</label>
-        <input asp-for="Nombre" class="form-control" required />
-        <span asp-validation-for="Nombre" class="text-danger"></span>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>TRAVELER - Free Travel Website Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="@Url.Content("~/css/index.css")" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="container-fluid bg-light pt-3 d-none d-lg-block">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 text-center text-lg-left mb-2 mb-lg-0">
+                    <div class="d-inline-flex align-items-center">
+                        <p><i class="fa fa-envelope mr-2"></i>Baños@Baños.itq.edu.ec</p>
+                        <p class="text-body px-3">|</p>
+                        <p><i class="fa fa-phone-alt mr-2"></i>+012 345 6789</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-center text-lg-right">
+                    <div class="d-inline-flex align-items-center">
+                        <a class="text-primary px-3" href="https://www.facebook.com/BaniosTurismo">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a class="text-primary px-3" href="https://www.instagram.com/banos_de_agua_santa/?hl=es">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- barra de navegacion comienzo -->
+    <div class="container-fluid position-relative nav-bar p-0">
+        <div class="container-lg position-relative p-0 px-lg-3" style="z-index: 9;">
+            <nav class="navbar navbar-expand-lg bg-light navbar-light shadow-lg py-3 py-lg-0 pl-3 pl-lg-5">
+                <a href="" class="navbar-brand">
+                    <h1 class="m-0 text-primary"><span class="text-dark">BAÑ</span>OS</h1>
+                </a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-between px-3" id="navbarCollapse">
+                    <div class="navbar-nav ml-auto py-0">
+                        <a href="/Home/Index" class="nav-item nav-link active">Home</a>
+                        <a href="/Servicios/Servicios" class="nav-item nav-link">Servicios</a>
+                        <a href="/User/Login" class="nav-item nav-link">Iniciar sesion</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- find e barra de navegacion -->
+    <!-- Header Start -->
+    <div class="container-fluid page-header">
+        <div class="container">
+            <div class="d-flex flex-column align-items-center justify-content-center" style="min-height: 400px">
+                <h3 class="display-4 text-white text-uppercase">Lugares</h3>
+                <div class="d-inline-flex text-white">
+                    <p class="m-0 text-uppercase"><a class="text-white" href="">Agrega</a></p>
+                    <i class="fa fa-angle-double-right pt-1 px-3"></i>
+                    <p class="m-0 text-uppercase">Lugares</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+    <div class="container-fluid bg-registration py-7 fullscreen-container" style="margin: 0;">
+        <div class="container py-5">
+            <div class="row align-items-center">
+                <div class="col-lg-12">
+                    <div class="card border-0 fullscreen-card">
+                        <div class="card-header bg-primary text-center p-4">
+                            <h1 class="text-white m-0">Crear Lugar</h1>
+                        </div>
+                        <div class="card-body rounded-bottom bg-white p-5">
+                            <form asp-action="Create" method="post" enctype="multipart/form-data">
+                                <div class="form-group">
+                                    <label asp-for="Nombre">Nombre</label>
+                                    <input asp-for="Nombre" class="form-control" required />
+                                    <span asp-validation-for="Nombre" class="text-danger"></span>
+                                </div>
+
+                                <div class="form-group">
+                                    <label asp-for="CantidadSitios">Cantidad de Sitios</label>
+                                    <input asp-for="CantidadSitios" class="form-control" required />
+                                    <span asp-validation-for="CantidadSitios" class="text-danger"></span>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="Imagen">Imagen</label>
+                                    <input type="file" name="Imagen" id="Imagen" class="form-control-file" accept="image/*" />
+                                </div>
+
+                                <!-- Mapa interactivo -->
+                                <div class="form-group">
+                                    <label for="map">Selecciona la ubicación</label>
+                                    <div id="map" style="height: 400px;"></div>
+                                    <input type="hidden" id="Latitud" name="Latitud" />
+                                    <input type="hidden" id="Longitud" name="Longitud" />
+                                    <span id="coords"></span>
+                                </div>
+
+                                <button type="submit" class="btn btn-primary">Guardar</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <div class="form-group">
-        <label asp-for="CantidadSitios">Cantidad de Sitios</label>
-        <input asp-for="CantidadSitios" class="form-control" required />
-        <span asp-validation-for="CantidadSitios" class="text-danger"></span>
+
+
+    <!-- comienzo de footer -->
+    <div class="container-fluid bg-dark text-white-50 py-5 px-sm-3 px-lg-5" style="margin-top: 90px;">
+        <div class="row pt-5">
+            <div class="col-lg-3 col-md-6 mb-5">
+                <a href="" class="navbar-brand">
+                    <h1 class="text-primary"><span class="text-white">BAÑ</span>OS</h1>
+                </a>
+                <p>Baños un lugar de paz y tranquilidad para pasarla supe bien </p>
+                <h6 class="text-white text-uppercase mt-4 mb-3" style="letter-spacing: 5px;">Follow Us</h6>
+                <div class="d-flex justify-content-start">
+                    <a class="btn btn-outline-primary btn-square mr-2" href="https://www.facebook.com/BaniosTurismo"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-primary btn-square" href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h5 class="text-white text-uppercase mb-4" style="letter-spacing: 5px;">Contactos</h5>
+                <p><i class="fa fa-map-marker-alt mr-2"></i>Baños,Ecuador</p>
+                <p><i class="fa fa-phone-alt mr-2"></i>+012 345 67890</p>
+                <p><i class="fa fa-envelope mr-2"></i>Baños@Baños.com</p>
+                <h6 class="text-white text-uppercase mt-4 mb-3" style="letter-spacing: 5px;">BAÑOS-CITY</h6>
+
+            </div>
+        </div>
     </div>
 
-    <div class="form-group">
-        <label for="Imagen">Imagen</label>
-        <input type="file" name="Imagen" id="Imagen" class="form-control-file" accept="image/*" />
-    </div>
+    <!-- find edel footer -->
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="fa fa-angle-double-up"></i></a>
 
-    <!-- Mapa interactivo -->
-    <div class="form-group">
-        <label for="map">Selecciona la ubicación</label>
-        <div id="map" style="height: 400px;"></div>
-        <input type="hidden" id="Latitud" name="Latitud" />
-        <input type="hidden" id="Longitud" name="Longitud" />
-        <span id="coords"></span>
-    </div>
 
-    <button type="submit" class="btn btn-primary">Guardar</button>
-</form>
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+
+</html>
+
+
+
+
 
 @section Scripts {
-    <!-- Incluir Leaflet.js -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
 
@@ -70,3 +229,5 @@
         });
     </script>
 }
+
+

@@ -12,8 +12,8 @@ using ProyectoFinal.Data;
 namespace ProyectoFinal.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20241213001340_Coordenadas")]
-    partial class Coordenadas
+    [Migration("20241213014628_primera")]
+    partial class primera
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

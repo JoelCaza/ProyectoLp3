@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace ProyectoFinal.Migrations
 {
     /// <inheritdoc />
-    public partial class Reserva : Migration
+    public partial class primera : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -21,7 +21,9 @@ namespace ProyectoFinal.Migrations
                     CantidadSitios = table.Column<int>(type: "int", nullable: false),
                     ImagenNombre = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     ImagenData = table.Column<byte[]>(type: "varbinary(max)", nullable: true),
-                    ImagenTipo = table.Column<string>(type: "nvarchar(max)", nullable: true)
+                    ImagenTipo = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Latitud = table.Column<double>(type: "float", nullable: true),
+                    Longitud = table.Column<double>(type: "float", nullable: true)
                 },
                 constraints: table =>
                 {
